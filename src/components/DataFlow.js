@@ -2,7 +2,7 @@ import React from 'react'
 
 const DataFlow = () => {
   return (
-    <div>DataFlow</div>
+    <h1>DataFlow</h1>
   )
 }
 

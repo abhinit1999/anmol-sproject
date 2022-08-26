@@ -11,7 +11,11 @@ function App() {
   return (
     <>
   <Navbar/>
+  <hr style={{color:"black",height:"1rem",backgroundColor:"lightblue",
+  marginLeft:"2rem",
+}} />
     <Routes>
+      
     {/* <Route path="/" element={<Navbar/>}/> */}
     <Route path="/app-master" element={<AppMaster/>}/>
     <Route path="/integrations" element={<Integrations/>}/>
