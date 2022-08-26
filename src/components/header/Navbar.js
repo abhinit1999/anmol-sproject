@@ -29,7 +29,8 @@ const Navbar = () => {
     
     <nav
     style={{
-        display:"flex",
+        display:"grid",
+
     }}>
         <div
         style={{
