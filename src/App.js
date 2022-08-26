@@ -14,6 +14,7 @@ function App() {
   <hr style={{color:"black",height:"1rem",backgroundColor:"lightblue",
   marginLeft:"2rem",
 }} />
+    
     <Routes>
       
     {/* <Route path="/" element={<Navbar/>}/> */}

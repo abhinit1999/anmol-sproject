@@ -2,7 +2,7 @@ import React from 'react'
 
 const Help = () => {
   return (
-    <h1>Help</h1>
+    <h1 style={{textAlign:"center"}}>Help</h1>
   )
 }
 
