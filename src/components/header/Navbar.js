@@ -7,20 +7,25 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Navbar = () => {
   return (
     <>
-    <h3 style={{color:"blue",fontWeight:"700",            marginLeft:"2rem",
-}}>Data lineage</h3>
+   
     
     <header
+    
     style={{
         marginLeft:"2rem",
 
-        backgroundColor:"blue",
+        backgroundColor:"lightblue",
         width:"100%",
         height:"40px",
 
 
     }}
-    ></header>
+    >
+         <h3 style={{color:"blue",fontWeight:"700",
+        //  textAlign:"center",    
+                marginLeft:"2rem",
+}}>Data lineage</h3>
+    </header>
     
     <nav
     style={{
@@ -41,165 +46,180 @@ borderRight:"none",
                     textDecoration:"none",
                     width: "100px",
                     height: "70px",
-                    border:"1px solid black",
-                    // display:"flex",
-                    // alignItems:"center",
-                    // justifyContent:"center",
+                    backgroundColor:"#e1f1f3",
                     display:"grid",
-                    gridTemplateColumns:"repeat(2,1fr)",
-                    fontWeight:"500",
-                    alignContent:"center",
-                    gridColumnGap:"1rem",
+                    alignItems:"center",
+                    justifyContent:"center",
+                   
+                    
+                   
                     
 
 
-                }} to="/app-master">App Master
-                <i
+                }} to="/app-master" title='AppMaster'>
+                    
+                    <i
                 style={{
                     display:"grid",
                     gridTemplateColumns:"repeat(2,1fr)",
                     alignItems:"center",
-                    
+                    marginLeft:"2rem"
+                                                                                          
                 }}
                 ><FontAwesomeIcon icon={faHome} /></i>
+                
+                
+                    App Master
+                
+                
                 </NavLink>
                 <NavLink 
                  style={{
                     textDecoration:"none",
-                    width: "110px",
+                    width: "100px",
                     height: "70px",
-                    border:"1px solid black",
-                    // display:"flex",
-                    // alignItems:"center",
-                    // justifyContent:"center",
-                    
+                    // border:"1px solid black",
                     display:"grid",
-                    gridTemplateColumns:"repeat(2,1fr)",
-                    fontWeight:"500",
-                    alignContent:"center",
-                    gridColumnGap:".3rem",
+                    alignItems:"center",
+                    justifyContent:"center",
+                    backgroundColor:"#e1f1f3"
                     
 
                 }}
-                to="/integrations">Integrations
-                
-                
-                <i
+                to="/integrations">
+                    
+                    <i
                 style={{
+                    marginLeft:"2rem",
                     display:"grid",
                     gridTemplateColumns:"repeat(2,1fr)",
                     alignItems:"center",
                     
                 }}
                 ><FontAwesomeIcon icon={faSuperscript} /></i>
+                
+                    Integrations
+                
+                
+               
+                
+                
                 </NavLink>
                 <NavLink 
                  style={{
                     textDecoration:"none",
                     width: "100px",
                     height: "70px",
-                    border:"1px solid black",
+                    backgroundColor:"#e1f1f3",
 
-                    // display:"flex",
-                    // alignItems:"center",
-                    // justifyContent:"center",
-                    // fontWeight:"500",
                     display:"grid",
-                    gridTemplateColumns:"repeat(2,1fr)",
-                    fontWeight:"500",
-                    alignContent:"center",
-                    gridColumnGap:"1rem",
+                    alignItems:"center",
+                    justifyContent:"center",
 
 
                 }}
-                to="/data-flow">Data Flow
-                  <i
+                to="/data-flow">
+                    
+                    <i
                 style={{
                     display:"grid",
                     gridTemplateColumns:"repeat(2,1fr)",
                     alignItems:"center",
+                    marginLeft:"2rem",
                     
                 }}
                 ><FontAwesomeIcon icon={faDashboard} /></i>
+                
+                    Data Flow
+                
+                
+                
                 </NavLink>
                 <NavLink
                  style={{
                     textDecoration:"none",
                     width: "100px",
                     height: "70px",
-                    border:"1px solid black",
-                    // display:"flex",
-                    // alignItems:"center",
-                    // justifyContent:"center",
-                    // fontWeight:"500",
+                    backgroundColor:"#e1f1f3",
                     display:"grid",
-                    gridTemplateColumns:"repeat(2,1fr)",
-                    fontWeight:"500",
-                    alignContent:"center",
-                    gridColumnGap:"1rem",
+                    alignItems:"center",
+                    justifyContent:"center",
+                    // display:"grid",
+                    // gridTemplateColumns:"repeat(2,1fr)",
+                    // fontWeight:"500",
+                    // alignContent:"center",
+                    // gridColumnGap:"1rem",
 
-                }} to="/reports">Reports
-                  <i
+                }} to="/reports">
+                    <i
                 style={{
                     display:"grid",
                     gridTemplateColumns:"repeat(2,1fr)",
                     alignItems:"center",
                     
+                    marginLeft:"1.5rem"
                 }}
                 ><FontAwesomeIcon icon={faFile} /></i>
+                
+                    
+                    Reports
+                  
+                
+                
                 </NavLink>
                 <NavLink
                  style={{
                     textDecoration:"none",
                     width: "100px",
                     height: "70px",
-                    border:"1px solid black",
-                    // display:"flex",
-                    // alignItems:"center",
-                    // justifyContent:"center",
-                    // fontWeight:"500",
+                    backgroundColor:"#e1f1f3",
                     display:"grid",
-                    gridTemplateColumns:"repeat(2,1fr)",
-                    fontWeight:"500",
-                    alignContent:"center",
-                    gridColumnGap:"1rem",
+                    alignItems:"center",
+                    justifyContent:"center",
 
-                }} to="/contacts">Contacts
-                
-                <i
+                }} to="/contacts">
+                    
+                    <i
                 style={{
                     display:"grid",
                     gridTemplateColumns:"repeat(2,1fr)",
                     alignItems:"center",
+                    marginLeft:"1.5rem",
                     
                 }}
                 ><FontAwesomeIcon icon={faContactCard} /></i>
+                
+                    Contacts
+                
+                
+                
+                
                 </NavLink>
                 <NavLink
                  style={{
                     textDecoration:"none",
                     width: "100px",
                     height: "70px",
-                    border:"1px solid black",
-                    // display:"flex",
-                    // alignItems:"center",
-                    // justifyContent:"center",
-                    // fontWeight:"500",
+                    backgroundColor:"#e1f1f3",
                     display:"grid",
-                    gridTemplateColumns:"repeat(2,1fr)",
-                    fontWeight:"500",
-                    alignContent:"center",
-                    gridColumnGap:"1rem",
+                    alignItems:"center",
+                    justifyContent:"center",
 
-                }} to="/help">Help
-                  <i
+                }} to="/help">
+                    
+                    <i
                 style={{
                     display:"grid",
                     gridTemplateColumns:"repeat(2,1fr)",
                     alignItems:"center",
+                    marginLeft:".4rem"
                     
                 }}
                 ><FontAwesomeIcon icon={faHandHolding} /></i>
+                
+                    Help
+                 
+                
                 </NavLink>
             </li>
         </ul>
