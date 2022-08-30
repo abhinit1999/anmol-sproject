@@ -10,11 +10,12 @@ import {
   faHome,
   faSuperscript,
 } from "@fortawesome/free-solid-svg-icons";
+import Navbar1 from "../horizontalNav/Navbar"
 
 const Navbar = () => {
   return (
     <>
-      <header
+      {/* <header
         style={{
           //   marginLeft: "2rem",
 
@@ -38,8 +39,8 @@ const Navbar = () => {
         >
           Data lineage
         </h3>
-      </header>
-
+      </header> */}
+      <Navbar1/> 
       <nav
         style={{
           display: "grid",

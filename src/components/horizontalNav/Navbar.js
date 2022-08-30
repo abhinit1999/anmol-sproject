@@ -17,6 +17,8 @@ import {
 
 const Navbar = () => {
   return (
+    <> 
+   
     <div className='container'>
         <ul className='ul'>
             <li className='li'>
@@ -67,6 +69,7 @@ const Navbar = () => {
                 </li>
         </ul>
     </div>
+    </>
   )
 }
 

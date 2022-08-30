@@ -6,15 +6,39 @@ import DataFlow from "./components/DataFlow";
 import Reports from "./components/Reports";
 import Contact from "./components/Contact";
 import Help from "./components/Help";
-
 function App() {
   return (
     <>
-{/*   
-  <hr style={{color:"black",height:"1rem",backgroundColor:"lightblue",
+  
+  {/* <hr style={{color:"black",height:"1rem",backgroundColor:"lightblue",
   marginLeft:"2rem",
 }} /> */}
-    
+
+<header
+        style={{
+          //   marginLeft: "2rem",
+
+          backgroundColor: "lightblue",
+          width: "100%",
+          height: "4rem",
+          padding: "1rem",
+          marginTop: ".6rem",
+        }}
+      >
+        <h3
+          style={{
+            color: "blue",
+            fontWeight: "700",
+            marginLeft: "11rem",
+            fontSize: "2rem",
+            marginTop: "0rem",
+            display: "grid",
+            alignItems: "center",
+          }}
+        >
+          Data lineage
+        </h3>
+      </header>
     <Routes>
       
     <Route path="/" element={<Navbar/>}/>
