@@ -10,14 +10,14 @@ import Help from "./components/Help";
 function App() {
   return (
     <>
-  <Navbar/>
+{/*   
   <hr style={{color:"black",height:"1rem",backgroundColor:"lightblue",
   marginLeft:"2rem",
-}} />
+}} /> */}
     
     <Routes>
       
-    {/* <Route path="/" element={<Navbar/>}/> */}
+    <Route path="/" element={<Navbar/>}/>
     <Route path="/app-master" element={<AppMaster/>}/>
     <Route path="/integrations" element={<Integrations/>}/>
     <Route path="/data-flow" element={<DataFlow/>}/>

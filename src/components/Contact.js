@@ -1,9 +1,14 @@
 import React from 'react'
+import Navbar from './horizontalNav/Navbar';
 
 const Contact = () => {
   return (
-    <h1 style={{textAlign:"center"}}>Contact</h1>
-  )
+    <>
+<Navbar/>
+    
+    <h1 style={{textAlign:"center"}}>Contact US</h1>
+
+    </>  )
 }
 
 export default Contact;

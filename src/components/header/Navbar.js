@@ -17,6 +17,9 @@ const Navbar = () => {
         backgroundColor:"lightblue",
         width:"100%",
         height:"40px",
+        padding:"1rem",
+        marginTop:".6rem"
+      
 
 
     }}
@@ -24,6 +27,8 @@ const Navbar = () => {
          <h3 style={{color:"blue",fontWeight:"700",
         //  textAlign:"center",    
                 marginLeft:"2rem",
+                fontSize:"2rem",
+                marginTop:"0rem"
 }}>Data lineage</h3>
     </header>
     
@@ -43,11 +48,13 @@ borderRight:"none",
         ></div>
         <ul>
             <li>
-                <NavLink style={{
+                <NavLink 
+                className="hover_Effect"
+                style={{
                     textDecoration:"none",
                     width: "100px",
                     height: "70px",
-                    backgroundColor:"#e1f1f3",
+                    // backgroundColor:"#e1f1f3",
                     display:"grid",
                     alignItems:"center",
                     justifyContent:"center",
@@ -75,6 +82,7 @@ borderRight:"none",
                 
                 </NavLink>
                 <NavLink 
+                className="hover_Effect"
                  style={{
                     textDecoration:"none",
                     width: "100px",
@@ -83,7 +91,7 @@ borderRight:"none",
                     display:"grid",
                     alignItems:"center",
                     justifyContent:"center",
-                    backgroundColor:"#e1f1f3"
+                    // backgroundColor:"#e1f1f3"
                     
 
                 }}
@@ -107,11 +115,12 @@ borderRight:"none",
                 
                 </NavLink>
                 <NavLink 
+                className="hover_Effect"
                  style={{
                     textDecoration:"none",
                     width: "100px",
                     height: "70px",
-                    backgroundColor:"#e1f1f3",
+                    // backgroundColor:"#e1f1f3",
 
                     display:"grid",
                     alignItems:"center",
@@ -137,11 +146,12 @@ borderRight:"none",
                 
                 </NavLink>
                 <NavLink
+                className="hover_Effect"
                  style={{
                     textDecoration:"none",
                     width: "100px",
                     height: "70px",
-                    backgroundColor:"#e1f1f3",
+                    // backgroundColor:"#e1f1f3",
                     display:"grid",
                     alignItems:"center",
                     justifyContent:"center",
@@ -169,11 +179,12 @@ borderRight:"none",
                 
                 </NavLink>
                 <NavLink
+                className="hover_Effect"
                  style={{
                     textDecoration:"none",
                     width: "100px",
                     height: "70px",
-                    backgroundColor:"#e1f1f3",
+                    // backgroundColor:"#e1f1f3",
                     display:"grid",
                     alignItems:"center",
                     justifyContent:"center",
@@ -197,11 +208,13 @@ borderRight:"none",
                 
                 </NavLink>
                 <NavLink
+                className="hover_Effect"
+                
                  style={{
                     textDecoration:"none",
                     width: "100px",
                     height: "70px",
-                    backgroundColor:"#e1f1f3",
+                    // backgroundColor:"#e1f1f3",
                     display:"grid",
                     alignItems:"center",
                     justifyContent:"center",

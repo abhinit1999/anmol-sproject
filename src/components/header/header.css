@@ -62,3 +62,15 @@ li
         height:"40px";
     }
 }
+
+
+.hover_Effect:hover
+{
+    background-color: rgb(245, 239, 239);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.hover_Effect
+{
+    /* font-size: 1.5rem; */
+}
