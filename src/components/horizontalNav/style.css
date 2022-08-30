@@ -6,26 +6,26 @@
     
 }
 .container{
-    width: 100%;
-    background-color: gray;
-    height: 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
+  background-color: gray;
+   display: grid;
+   width: 5rem;
+   height: 100%;
     
 }
-ul
+.ul
 {
-    margin-left: 5rem;
-    margin-right: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* margin-left: 5rem;
+    margin-right: 5rem; */
+    display: grid;
+    height: auto;
+    min-height: 30rem;
+    grid-template-rows: repeat(7,1fr);
+    row-gap: 2rem;
 }
-li
+.li
 {
     list-style-type: none;
+   
 
 
 }

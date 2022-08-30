@@ -1,247 +1,104 @@
-import React from 'react'
+import React from "react";
 import "./header.css";
-import { NavLink } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-  import { faCoffee, faContactBook, faContactCard, faDashboard, faFile, faHamburger, faHamsa, faHandHolding, faHandsHelping, faHelicopter, faHome, faIndent, faInfo, faRepeat, faSuperscript, faTextHeight } from '@fortawesome/free-solid-svg-icons'
+import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faContactCard,
+  faDashboard,
+  faFile,
+  faHandHolding,
+  faHome,
+  faSuperscript,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   return (
     <>
-   
-    
-    <header
-    
-    style={{
-        marginLeft:"2rem",
-
-        backgroundColor:"lightblue",
-        width:"100%",
-        height:"40px",
-        padding:"1rem",
-        marginTop:".6rem"
-      
-
-
-    }}
-    >
-         <h3 style={{color:"blue",fontWeight:"700",
-        //  textAlign:"center",    
-                marginLeft:"2rem",
-                fontSize:"2rem",
-                marginTop:"0rem"
-}}>Data lineage</h3>
-    </header>
-    
-    <nav
-    style={{
-        display:"grid",
-
-    }}>
-        <div
+      <header
         style={{
-            marginLeft:"2rem",
-borderLeft:"2rem solid gray",
-borderRight:"none",
+          //   marginLeft: "2rem",
 
-
+          backgroundColor: "lightblue",
+          width: "100%",
+          height: "4rem",
+          padding: "1rem",
+          marginTop: ".6rem",
         }}
+      >
+        <h3
+          style={{
+            color: "blue",
+            fontWeight: "700",
+            marginLeft: "11rem",
+            fontSize: "2rem",
+            marginTop: "0rem",
+            display: "grid",
+            alignItems: "center",
+          }}
+        >
+          Data lineage
+        </h3>
+      </header>
+
+      <nav
+        style={{
+          display: "grid",
+        }}
+      >
+        <div
+          style={{
+            marginLeft: "2rem",
+            borderLeft: "2rem solid gray",
+            borderRight: "none",
+          }}
         ></div>
         <ul>
-            <li>
-                <NavLink 
-                className="hover_Effect"
-                style={{
-                    textDecoration:"none",
-                    width: "100px",
-                    height: "70px",
-                    // backgroundColor:"#e1f1f3",
-                    display:"grid",
-                    alignItems:"center",
-                    justifyContent:"center",
-                   
-                    
-                   
-                    
-
-
-                }} to="/app-master" title='AppMaster'>
-                    
-                    <i
-                style={{
-                    display:"grid",
-                    gridTemplateColumns:"repeat(2,1fr)",
-                    alignItems:"center",
-                    marginLeft:"2rem"
-                                                                                          
-                }}
-                ><FontAwesomeIcon icon={faHome} /></i>
-                
-                
-                    App Master
-                
-                
-                </NavLink>
-                <NavLink 
-                className="hover_Effect"
-                 style={{
-                    textDecoration:"none",
-                    width: "100px",
-                    height: "70px",
-                    // border:"1px solid black",
-                    display:"grid",
-                    alignItems:"center",
-                    justifyContent:"center",
-                    // backgroundColor:"#e1f1f3"
-                    
-
-                }}
-                to="/integrations">
-                    
-                    <i
-                style={{
-                    marginLeft:"2rem",
-                    display:"grid",
-                    gridTemplateColumns:"repeat(2,1fr)",
-                    alignItems:"center",
-                    
-                }}
-                ><FontAwesomeIcon icon={faSuperscript} /></i>
-                
-                    Integrations
-                
-                
-               
-                
-                
-                </NavLink>
-                <NavLink 
-                className="hover_Effect"
-                 style={{
-                    textDecoration:"none",
-                    width: "100px",
-                    height: "70px",
-                    // backgroundColor:"#e1f1f3",
-
-                    display:"grid",
-                    alignItems:"center",
-                    justifyContent:"center",
-
-
-                }}
-                to="/data-flow">
-                    
-                    <i
-                style={{
-                    display:"grid",
-                    gridTemplateColumns:"repeat(2,1fr)",
-                    alignItems:"center",
-                    marginLeft:"2rem",
-                    
-                }}
-                ><FontAwesomeIcon icon={faDashboard} /></i>
-                
-                    Data Flow
-                
-                
-                
-                </NavLink>
-                <NavLink
-                className="hover_Effect"
-                 style={{
-                    textDecoration:"none",
-                    width: "100px",
-                    height: "70px",
-                    // backgroundColor:"#e1f1f3",
-                    display:"grid",
-                    alignItems:"center",
-                    justifyContent:"center",
-                    // display:"grid",
-                    // gridTemplateColumns:"repeat(2,1fr)",
-                    // fontWeight:"500",
-                    // alignContent:"center",
-                    // gridColumnGap:"1rem",
-
-                }} to="/reports">
-                    <i
-                style={{
-                    display:"grid",
-                    gridTemplateColumns:"repeat(2,1fr)",
-                    alignItems:"center",
-                    
-                    marginLeft:"1.5rem"
-                }}
-                ><FontAwesomeIcon icon={faFile} /></i>
-                
-                    
-                    Reports
-                  
-                
-                
-                </NavLink>
-                <NavLink
-                className="hover_Effect"
-                 style={{
-                    textDecoration:"none",
-                    width: "100px",
-                    height: "70px",
-                    // backgroundColor:"#e1f1f3",
-                    display:"grid",
-                    alignItems:"center",
-                    justifyContent:"center",
-
-                }} to="/contacts">
-                    
-                    <i
-                style={{
-                    display:"grid",
-                    gridTemplateColumns:"repeat(2,1fr)",
-                    alignItems:"center",
-                    marginLeft:"1.5rem",
-                    
-                }}
-                ><FontAwesomeIcon icon={faContactCard} /></i>
-                
-                    Contacts
-                
-                
-                
-                
-                </NavLink>
-                <NavLink
-                className="hover_Effect"
-                
-                 style={{
-                    textDecoration:"none",
-                    width: "100px",
-                    height: "70px",
-                    // backgroundColor:"#e1f1f3",
-                    display:"grid",
-                    alignItems:"center",
-                    justifyContent:"center",
-
-                }} to="/help">
-                    
-                    <i
-                style={{
-                    display:"grid",
-                    gridTemplateColumns:"repeat(2,1fr)",
-                    alignItems:"center",
-                    marginLeft:".4rem"
-                    
-                }}
-                ><FontAwesomeIcon icon={faHandHolding} /></i>
-                
-                    Help
-                 
-                
-                </NavLink>
-            </li>
+          <li>
+            <NavLink
+              className="hover_Effect"
+              to="/app-master"
+              title="AppMaster"
+            >
+              <i className="icon">
+                <FontAwesomeIcon className="large_icon" icon={faHome} />
+              </i>
+              App Master
+            </NavLink>
+            <NavLink className="hover_Effect" to="/integrations">
+              <i className="icon">
+                <FontAwesomeIcon className="large_icon" icon={faSuperscript} />
+              </i>
+              Integrations
+            </NavLink>
+            <NavLink className="hover_Effect" to="/data-flow">
+              <i className="icon">
+                <FontAwesomeIcon className="large_icon" icon={faDashboard} />
+              </i>
+              Data Flow
+            </NavLink>
+            <NavLink className="hover_Effect" to="/reports">
+              <i className="icon">
+                <FontAwesomeIcon className="large_icon" icon={faFile} />
+              </i>
+              Reports
+            </NavLink>
+            <NavLink className="hover_Effect" to="/contacts">
+              <i className="icon">
+                <FontAwesomeIcon className="large_icon" icon={faContactCard} />
+              </i>
+              Contacts
+            </NavLink>
+            <NavLink className="hover_Effect" to="/help">
+              <i className="icon">
+                <FontAwesomeIcon className="large_icon" icon={faHandHolding} />
+              </i>
+              Help
+            </NavLink>
+          </li>
         </ul>
-    </nav>
-    
-    
+      </nav>
     </>
-  )
-}
+  );
+};
 
 export default Navbar;
